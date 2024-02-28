@@ -96,7 +96,7 @@ header{
     display: block;
     background-color: #EEEEEE;
     position: relative;
-    height: 590px;
+    height: 630px;
 }
 .thead{
     
@@ -123,4 +123,43 @@ header{
     left: 10%;
     width: 55%;
     height: 100%
+}
+.hd1{
+    display: block;
+    width: 75%;
+    color: #f1f1f1;
+}
+.butn{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+#curs{
+    height: 100%;
+    width: 100%;
+    color: #f1f1f1;
+    display: inline-block;
+    border:1px solid white;
+    background-color: transparent;
+}
+#curs:hover{
+    transition: 0.2s;
+    background-color: #f1f1f1;
+    color: #555555;
+}
+.slides{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    display: flex;
+    gap: 20px;
+}
+.digit{
+    width: 30px;
+    border: 2px solid white;
+}
+.digit:hover{
+    transition: all 0.2s;
+    border: 2px solid #ee7e01;
 }
