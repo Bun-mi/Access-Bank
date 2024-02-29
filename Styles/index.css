@@ -1,97 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-.frst{
-    width: 100%;
-    background-color: #f1f1f1;
-    color: #555555;
-    padding: 0.2em;
-    font-size: 0.85em;
-}
-.close{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.item{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.ab{
-    display: flex;
-    list-style: none;
-}
-.navb{
-    position: relative;
-    font-size: 100%;
-    transition: color 0.3s;
-    color: #555555;
-    display: block;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-}
-.ab a:hover{
-    transition: color 0.3s;
-    border-top: 5px solid #ee7e01;
-}
-.sec{
-    display: flex;
-    height: 55px;
-    font-size: 15px;
-    align-items: center;
-    background-color: white;
-    position: relative;
-    z-index: 1;
-}
-.center .ti{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    height: 100%;
-}
-.yeild{
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: max-content;
-    height: 100%;
-    overflow-x: hidden;
-}
-.ref{
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-}
-.yeild a:hover{
-    transition: all 0.2s;
-    border-bottom: 5px solid #ee7e01;
-}
-.enf{
-    flex: 1;
-    display: flex;
-    height: 100%;
-}
-.bar{
-    background: #f1f1f1;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0.8em;
-    outline: 0;
-    flex: 1.5;
-}
-.side{
-    background-color: #ee7e01 ;
-    color: white;
-    padding: 1em;
-    flex: 1;
-    cursor: pointer;
-}
 header{
     display: block;
     background-color: #EEEEEE;
@@ -162,4 +68,67 @@ header{
 .digit:hover{
     transition: all 0.2s;
     border: 2px solid #ee7e01;
+}
+/* .tob{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.gloss{
+    width: 100%;
+    z-index: 5;
+    background-color: white;
+    overflow: hidden;
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    transform: translateY(-25%);
+}
+.pol{
+    position: relative;
+    z-index: 1;
+    background-color: #a4c519;
+    width: 100%;
+}
+.box{
+    position: relative;
+    background-color: #ee7e01;
+    width: 100px;
+} */
+.strip{
+    width: 100%;
+    height: 30px;
+}
+.news{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.set1{
+    height: 3
+    8px;
+    width: 25%;
+    font-size: 12px;
+    line-height: 40px;
+}
+.bend{
+    width: 20px;
+    background: #eb7824;
+    height: 38px;
+    transform: skewX(-20deg);
+    
+}
+.ri-news{
+    background-color: antiquewhite;
+    height: 38px;
+    width: 100%;
+}
+.multi{
+    width: 100%;
+    height: 6px;
+    background:linear-gradient(to right, #114c8d 35%, #d32e12 35%, #d32e12 65%, #9bc002 65%, #9bc002 85%, #eb7824 85%, #eb7824 95%, #057a82 95%, #057a82 100%);
 }

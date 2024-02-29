@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.frst{
+    width: 100%;
+    background-color: #f1f1f1;
+    color: #555555;
+    padding: 0.2em;
+    font-size: 0.85em;
+}
+.close{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ab{
+    display: flex;
+    list-style: none;
+}
+.navb{
+    position: relative;
+    font-size: 100%;
+    transition: color 0.3s;
+    color: #555555;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.ab a:hover{
+    transition: color 0.3s;
+    border-top: 5px solid #ee7e01;
+}
+.sec{
+    display: flex;
+    height: 55px;
+    font-size: 15px;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.center .ti{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+}
+.yeild{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: max-content;
+    height: 100%;
+    overflow-x: hidden;
+}
+.ref{
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+.yeild a:hover{
+    transition: all 0.2s;
+    border-bottom: 5px solid #ee7e01;
+}
+.enf{
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+.bar{
+    background: #f1f1f1;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.8em;
+    outline: 0;
+    flex: 1.5;
+}
+.side{
+    background-color: #ee7e01 ;
+    color: white;
+    padding: 1em;
+    flex: 1;
+    cursor: pointer;
+}
+footer{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.tablinks{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    background: white;
+    color: #555555;
+}
+.tools{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tools li a{
+
+    padding: 20px 10px;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    border: 4px solid lightcyan;
+}
+.mainffooter{
+    display: block;
+    width: 100%;
+}
+.desktopview{
+    display: flex;
+    justify-content: space-around;
+}
+.col ul li{
+    list-style: none;
+}
