@@ -1,134 +1,119 @@
-header{
+.access-slides{
     display: block;
-    background-color: #EEEEEE;
-    position: relative;
-    height: 630px;
-}
-.thead{
-    
+    overflow: hidden;
     width: 100%;
-    height: 100%;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-.slide{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-image: url(https://www.accessbankplc.com/access/media/Access-Images-Library/corporatebanking.png?ext=.png);
-}
-.slide-con{
-    position: absolute;
-    top: 21%;
-    left: 10%;
-    width: 55%;
-    height: 100%
-}
-.hd1{
-    display: block;
-    width: 75%;
-    color: #f1f1f1;
-}
-.butn{
-    height: 30px;
-    width: 100px;
-    background-color: transparent;
-    margin-top: 20px;
-}
-#curs{
-    height: 100%;
-    width: 100%;
-    color: #f1f1f1;
-    display: inline-block;
-    border:1px solid white;
-    background-color: transparent;
-}
-#curs:hover{
-    transition: 0.2s;
+    height: 780px;
     background-color: #f1f1f1;
-    color: #555555;
 }
-.slides{
+.block{
+    width: 100%;
+    display: block;
+    height: 600px;
+    background-image: url(./../Images/Private-Bank-Banner3-1.png);
+}
+.inside-writeup{
+    width: 75%;
+    padding: 50px;
+    color: white;
+    display: block;
     position: absolute;
-    top: 90%;
-    left: 10%;
+    top: 150px;
+    left: 100px;
+}
+.inside-writeup p{
+    margin-bottom: 30px;
+}
+.slides-button{
     display: flex;
     gap: 20px;
+    position: absolute;
+    top: 600px;
+    left: 170px;
 }
 .digit{
     width: 30px;
     border: 2px solid white;
 }
-.digit:hover{
-    transition: all 0.2s;
-    border: 2px solid #ee7e01;
+.access-works{
+    display: flex;
+    width: 1200px;
+    height: 170px;
+    background-color: #a4c519;
+    clip-path: polygon(94% 100%, 0 100%, 0 0, 100% 0);
+    position: absolute;
+    overflow: hidden;
+    top: 640px;
+    right: 60px;
 }
-/* .tob{
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-}
-.gloss{
+.access-fill{
+    display: flex;
     width: 100%;
-    z-index: 5;
+    gap: 1px;
     background-color: white;
     overflow: hidden;
-    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.1));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    transform: translateY(-25%);
 }
-.pol{
-    position: relative;
-    z-index: 1;
+.box-writes{
+    height: 100%;
     background-color: #a4c519;
-    width: 100%;
+    padding: 20px;
+    
 }
-.box{
-    position: relative;
-    background-color: #ee7e01;
-    width: 100px;
-} */
-.strip{
+.box-writes a{
+    width: 180px;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+.news-strips{
     width: 100%;
     height: 30px;
-}
-.news{
+    background-color: #eb7824;
     display: flex;
     align-items: center;
     overflow: hidden;
+    
 }
-.set1{
-    height: 3
-    8px;
-    width: 25%;
+.late-news{
+    background-color: #f1f1f1;
+    clip-path: polygon(94% 100%, 0 100%, 0 0, 100% 0);
+    height: 100%;
+    width: 35%;
     font-size: 12px;
     line-height: 40px;
 }
-.bend{
-    width: 20px;
-    background: #eb7824;
-    height: 38px;
-    transform: skewX(-20deg);
-    
-}
-.ri-news{
+.late-news-strip{
     background-color: antiquewhite;
-    height: 38px;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 5% 100%);
+    height: 100%;
+    display: flex;
     width: 100%;
+}
+.late-news-strips a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 40px;
 }
 .multi{
     width: 100%;
     height: 6px;
     background:linear-gradient(to right, #114c8d 35%, #d32e12 35%, #d32e12 65%, #9bc002 65%, #9bc002 85%, #eb7824 85%, #eb7824 95%, #057a82 95%, #057a82 100%);
 }
+.access-more{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+    background-color: #f1f1f1;
+    clip-path: polygon(100% 80%, 0 100%, 0 0, 100% 0);
+}
+/* .case2{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 800px;
+    clip-path: polygon(100% 0%, 100% 73%, 0% 100%, 0% 0%);
+}
+.mix{
+    width: 670px;
+    text-align: center;
+    margin-left: 360px;
+    padding-top: 50px;
+} */

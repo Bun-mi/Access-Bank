@@ -7,8 +7,8 @@
     width: 100%;
     background-color: #f1f1f1;
     color: #555555;
-    padding: 0.2em;
-    font-size: 0.85em;
+    padding: 3px;
+    font-size: 13px;
 }
 .close{
     width: 100%;
@@ -100,8 +100,6 @@ footer{
 .tablinks{
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin: 50px;
-    
 }
 .contain{
     padding-left: 10rem;
