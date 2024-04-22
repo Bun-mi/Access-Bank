@@ -149,68 +149,45 @@
     width: 100px;
     height: 100px;
 }
-.ico1{
+.icos a{
     text-decoration: none;
     height: 100%;
     width: 100%;
-    display: block;
-    overflow: hidden;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.access-more-icon{
+    vertical-align: middle;
 }
 .ico1:hover{
     transition: color 0.3s;
     background-image: url(./../Images/901.jpg);
     background-size: cover;
 }
-.ico2{
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
 .ico2:hover{
     transition: color 0.3s;
     background-image: url(./../Images/online-banking.jpg);
     background-size: cover;
-}
-.ico3{
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
 }
 .ico3:hover{
     transition: color 0.3s;
     background-image: url(./../Images/mobile-banking.png);
     background-size: cover;
 }
-.ico4{
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
 .ico4:hover{
     transition: color 0.3s;
     background-image: url(./../Images/platinum-icon-bg_1.png);
     background-size: cover;
 }
-.ico5{
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    display: block;
-    overflow: hidden;
-}
 .ico5:hover{
     transition: color 0.3s;
-    background-image: url(./../Images/901.jpg);
+    background-image: url(./../Images/new\ 901.jpg);
     background-size: cover;
-}
-.ico6{
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
 }
 .ico6:hover{
     transition: color 0.3s;
