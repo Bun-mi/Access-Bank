@@ -94,10 +94,6 @@
     height: 100%;
     width: 100%;
 }
-.late-news-strip p{
-    display: flex;
-    
-}
 .late-news-strip a{
     text-decoration: none;
     font-size: 12px;
@@ -116,6 +112,7 @@
     background-color: #f1f1f1;
     clip-path: polygon(100% 80%, 0 100%, 0 0, 100% 0);
     position: relative;
+    z-index: 0;
 }
 .contain-works{
     background-color: transparent;
@@ -199,6 +196,7 @@
     margin-top: 30px;
     padding: 30px;
     position: absolute;
+    z-index: 1;
 }
 .calc{
     display: flex;
