@@ -318,22 +318,69 @@
     display: flex;
     height: 450px;
     overflow: hidden;
-    background-color: #eb7824;
     margin-top: 30px;
+    position: relative;
 }
 .terms-condition{
-    width: 700px;
+    width: 580px;
+    height: 400px;
+    background-color: #eb7824;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+    position: absolute;
+    z-index: 3;
+}
+.terms-text{
+    width: 560px;
+    height: 400px;
     background-color: #9bc002;
     padding: 20px;
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
 }
+.terms-text-fill{
+    width: 400px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.5em;
+    align-items: flex-start;
+    color: white;
+    h3{
+    color: black;
+    }
+    .sub-h{
+        font-size: 42px;
+        line-height: 1em;
+        font-weight: 700;
+    }
+}
 .advert-picture{
-    width: 100%;
+    width: 760;
+    height: 400px;
     background-color: #f1f1f1;
     overflow: hidden;
-    padding: 20px;
-    clip-path: polygon(12% 0, 100% 0, 100% 100%, 5% 100%);
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.closa-more{
+    display: inline-block;
+    padding: 6px;
+    font-weight: 400;
+    text-align: center;
+    border: 2px solid black;
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
 .explore-banking{
     width: 100%;
