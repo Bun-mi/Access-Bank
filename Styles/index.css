@@ -128,7 +128,7 @@
     width: 670px;
     text-align: center;
     margin-left: 360px;
-    
+    margin-top: 30px;
 }
 .mix p h2{
     font-size: 42px;
@@ -334,4 +334,65 @@
     overflow: hidden;
     padding: 20px;
     clip-path: polygon(12% 0, 100% 0, 100% 100%, 5% 100%);
+}
+.explore-banking{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+.explore-banking-content{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 20px;
+}
+.explore-box{
+    position: relative;
+    height: 490px;
+    img{
+        width: 370px;
+    }
+}
+.textbox{
+    background-color: #eb7824;
+    position: absolute;
+    clip-path: polygon(94% 100%, 0 100%, 0 0, 100% 0);
+    padding: left 15px;
+    width: 335px;
+    height: 235px;
+    z-index: 3;
+    bottom: 5%;
+}
+.box-text{
+    background-color: #014086;
+    clip-path: polygon(94% 100%, 0 100%, 0 0, 100% 0);
+    padding: 1.5rem;
+    width: 330px;
+    height: 235px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    h5{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+}
+.text-more{
+    display: inline-block;
+    padding: 6px;
+    font-weight: 400;
+    text-align: center;
+    border: 2px solid white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
