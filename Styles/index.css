@@ -139,9 +139,14 @@
     text-align: center;
     margin-left: 360px;
     margin-top: 30px;
-}
-.mix p h2{
-    font-size: 42px;
+    h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+        font-weight: 100;
+    }
+    h2 .mix-txt{
+        font-weight: 700;
+    }
 }
 .ico{
     display: flex;
